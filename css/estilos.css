@@ -1,0 +1,673 @@
+body{
+    font-family: 'Inter', sans-serif;
+    color: rgb(93, 95, 121) ;
+    margin: 0px;
+}
+a:link{
+    text-decoration:none;
+}
+h1{
+    color: black;
+    display: inline;
+    font-size: 1em;
+}
+h2{
+    color: black;
+}
+h3 a{
+    color: rgb(93, 95, 121);
+}
+h3 a:hover{
+    color: rgb(245, 157, 35);
+}
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    color: rgb(93, 95, 121);
+    font-weight: 700;
+}
+.yellowlink{
+    color: rgb(245, 157, 35);
+}
+.yellowlink:hover{
+    color: rgb(93, 95, 121);
+}
+nav a:hover, footer a:hover{
+    color: rgb(245, 157, 35);
+}
+footer a{
+    color: rgb(255, 255, 255);
+}
+button{
+    background-color: rgb(240, 93, 80);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border: none;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: white;
+}
+footer .credits{
+    font-size: 0.6em;
+    text-align: center;
+}
+form input[type="email"]{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-color: rgb(93, 95, 121) solid;
+    box-shadow: none;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+div label{
+    font-size: 0.8em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.redb{
+    background-color: rgb(240, 93, 80);
+    margin-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.yellow{
+    color: black;
+    background-color: rgb(245, 157, 35);
+}
+.person div:first-child p:first-child{
+    font-size: 2em;
+    color: rgb(240, 93, 80);
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 3px;
+}
+.person abbr{
+    font-size: 0.7em;
+    text-align: left;
+    font-weight: 700;
+    align-items: left;
+}
+.person{
+    text-align: left;
+}
+.person h3{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.person img{
+    margin-top: 5px;
+}
+.person img+p{
+    font-size: 0.8em;
+    margin-bottom: 0px;
+}
+.person p+p a{
+    color: rgb(245, 157, 35);
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+.person p+p a:hover{
+    color: rgb(93, 95, 121);
+}
+@media screen and (min-width:320px) and (max-width: 767px){
+    header img{
+        padding-left: 5%;
+        width: 25%;
+    }
+    nav ul{
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 70px;
+    }
+    body{
+        text-align: center;
+    }
+    main{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .yellow h2{
+        margin-top: 0%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .yellow p{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 15px;
+    }
+    .yellowlink{
+        font-size: 0.9em;
+    }
+    abbr{
+        font-size: 0.8em;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    h1{
+        font-size: 0.9em;
+    }
+    .index h3{
+        font-size: 0.9em;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    footer img{
+        padding-top: 30px;
+        width: 25%;
+    }
+    footer img+p{
+        font-size: 0.7em;
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+    footer img+p+p{
+        font-size: 80%;
+    }
+    footer form{
+        margin-bottom: 30px;
+    }
+    footer form+div a{
+        display: block;
+        font-size: 0.8em;
+        padding-top: 1px;
+    }
+    footer form+div{
+        margin-bottom: 20px;
+    }
+    .bigH2{
+        font-size: 2em;
+        font-weight: 800;
+    }
+    .yellow700 a{
+        font-size: 0.7em;
+        color: rgb(245, 157, 35);
+        padding-bottom: 10px;
+        font-weight: 700;
+    }
+    .yellow700 a:hover{
+        color: rgb(93, 95, 121);
+    }
+    .yellow700{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .febrero h3{
+        color: black;
+        font-weight: 700;
+        font-size: 1.3em;
+    }
+    .febrero main p{
+        font-size: 0.8em;
+        text-align: left;
+        line-height: 1.5em;
+    }
+    .greycontainer{
+        background-color: rgb(227, 228, 230);
+        padding: 5px;
+        color: black;
+        margin-bottom: 30px;
+    }
+    .greycontainer p+p{
+        font-size: 0.6em;
+        padding-left: 10px;
+    }
+    .febrero iframe{
+        max-width: 100%;
+        height: auto;
+        border: 0px;
+    }
+    .febrero iframe+p{
+        font-size: 0.6em;
+        margin-bottom: 0%;
+    }
+    .iniciativas main ul{
+        text-align: left;
+        padding-left: 35px;
+    }
+    .iniciativas ul p{
+        font-size: 0.8em;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .iniciativas ul h3{
+        margin-bottom: 0px;
+    }
+    .iniciativas main ul a{
+        color: rgb(245, 157, 35);
+        font-size: 0.8em;
+    }
+    .iniciativas main ul a:hover{
+        color:rgb(93, 95, 121) ;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    main{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .index main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        grid-template-areas: 
+        'ly1 ly1'
+        'ly2 ly2'
+        'ly3 ly3'
+        'ly4 ly5'
+        'ly6 ly7';
+    }
+    .redb { grid-area: ly1; }
+    .yellow { grid-area: ly2; }
+    .index .container1 { grid-area: ly3; }
+    .index .container2 { grid-area: ly4; }
+    .index .container3 { grid-area: ly5; }
+    .index .container4 { grid-area: ly6; }
+    .index .container5 { grid-area: ly7; }
+    
+    .referentes main{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-gap: 20px;
+    }
+    .person{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        column-gap: 20px;
+    }
+    .referentes main img{
+        max-height: 100%;
+        width: auto;
+        padding-top: 15px;
+    }
+    header img{
+        padding-left: 3%;
+        width: 70px;
+    }
+    nav ul{
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 70px;
+    }
+    body{
+        text-align: center;
+    }
+    .yellow{
+        margin-top: -30px;
+        text-align: left;
+    }
+    .yellow h2{
+        margin-top: 0%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .yellow p{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 15px;
+    }
+    .yellowlink{
+        font-size: 0.9em;
+    }
+    abbr{
+        font-size: 0.8em;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    h1{
+        font-size: 0.9em;
+    }
+    .index h3{
+        font-size: 0.9em;
+        margin-top: 5px;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    footer img{
+        padding-top: 30px;
+        width: 70px;
+    }
+    footer img+p{
+        font-size: 0.7em;
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+    footer img+p+p{
+        font-size: 80%;
+    }
+    footer form{
+        margin-bottom: 30px;
+    }
+    footer form+div a{
+        display: inline;
+        font-size: 0.8em;
+        padding-top: 1px;
+        padding-left: 5px;
+    }
+    footer form+div{
+        margin-bottom: 20px;
+    }
+    .bigH2{
+        font-size: 2em;
+        font-weight: 800;
+    }
+    .yellow700 a{
+        font-size: 0.7em;
+        color: rgb(245, 157, 35);
+        padding-bottom: 10px;
+        font-weight: 700;
+    }
+    .yellow700 a:hover{
+        color: rgb(93, 95, 121);
+    }
+    .yellow700{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .febrero h3{
+        color: black;
+        font-weight: 700;
+        font-size: 1.3em;
+    }
+    .febrero main p{
+        font-size: 0.8em;
+        text-align: left;
+        line-height: 1.5em;
+    }
+    .greycontainer{
+        background-color: rgb(227, 228, 230);
+        padding: 5px;
+        color: black;
+        margin-bottom: 30px;
+    }
+    .greycontainer p+p{
+        font-size: 0.6em;
+        padding-left: 10px;
+    }
+    .febrero iframe{
+        max-width: 100%;
+        border: 0px;
+    }
+    .febrero iframe+p{
+        font-size: 0.6em;
+        margin-bottom: 0%;
+    }
+    .iniciativas main ul{
+        text-align: left;
+        padding-left: 35px;
+    }
+    .iniciativas ul p{
+        font-size: 0.8em;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .iniciativas ul h3{
+        margin-bottom: 0px;
+    }
+    .iniciativas main ul a{
+        color: rgb(245, 157, 35);
+        font-size: 0.8em;
+    }
+    .iniciativas main ul a:hover{
+        color:rgb(93, 95, 121) ;
+    }
+}
+@media screen and (min-width:1024px){
+    main{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .index main{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+        grid-template-areas: 
+        'ly1 ly1 ly2 ly2'
+        'ly3 ly3 ly3 ly3'
+        'ly4 ly5 ly6 ly7';
+    }
+    .redb { grid-area: ly1; }
+    .yellow { grid-area: ly2; }
+    .index .container1 { grid-area: ly3; }
+    .index .container2 { grid-area: ly4; }
+    .index .container3 { grid-area: ly5; }
+    .index .container4 { grid-area: ly6; }
+    .index .container5 { grid-area: ly7; }
+    
+    .referentes main{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        column-gap: 20px;
+        grid-template-areas: 
+        'ly8 ly8'
+        'ly9 ly10'
+        'ly9 ly10'
+        'ly9 ly10'
+        'ly9 ly10'
+        'ly9 ly10'
+        'ly9 ly10'
+        'ly9 ly10'
+        'ly9 ly10'
+        'ly9 ly10'
+        'ly9 ly10'
+    }
+    .referentes .title { grid-area: ly8; }
+    .referentes .yellow700 { grid-area: ly9; }
+    .referentes .main { grid-area: ly10; }
+    .referentes main{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-gap: 20px;
+    }
+    .person{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        column-gap: 20px;
+    }
+    .referentes main img{
+        max-height: 100%;
+        width: auto;
+        padding-top: 15px;
+    }
+    header{
+        margin-top: 10px;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 40px;
+    }
+    header div{
+        display: inline;
+        padding-right: 6%; 
+        text-align: left; 
+    }
+    header img{
+        width: 70px;
+    }
+    nav{
+        text-align: right;
+        display: inline;
+        padding-left: 5%;
+    }
+    nav ul{
+        text-align: right;
+        padding: 0px;
+        margin-bottom: 70px;
+        display: inline;
+    }
+    nav ul li{
+        text-align: right;
+        display: inline;
+        padding-left: 15px;
+    }
+    body{
+        text-align: center;
+    }
+    .redb{
+        margin-top: 0px;
+        width: 50%;
+    }
+    .redb img{
+        padding-top: 15px;
+    }
+    .yellow{
+        text-align: left;
+        width: 140%;
+        margin-left: -40%;
+    }
+    .yellow h2{
+        margin-top: 0%;
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 8%;
+    }
+    .yellow p{
+        padding-left: 8%;
+        padding-right: 2%;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .yellowlink{
+        font-size: 0.9em;
+    }
+    abbr{
+        font-size: 0.8em;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    h1{
+        font-size: 0.9em;
+    }
+    .index h3{
+        font-size: 0.9em;
+        margin-top: 5px;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    footer img{
+        padding-top: 30px;
+        width: 70px;
+    }
+    footer img+p{
+        font-size: 0.7em;
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+    footer img+p+p{
+        font-size: 80%;
+    }
+    footer form{
+        margin-bottom: 30px;
+    }
+    footer form+div a{
+        display: inline;
+        font-size: 0.8em;
+        padding-top: 1px;
+        padding-left: 5px;
+    }
+    footer form+div{
+        margin-bottom: 20px;
+    }
+    .index h2{
+        margin-bottom: 0%;
+    }
+    .index h2+p{
+        margin-top: 0%;
+    }
+    .bigH2{
+        font-size: 2em;
+        font-weight: 800;
+    }
+    .yellow700 a{
+        font-size: 0.7em;
+        color: rgb(245, 157, 35);
+        padding-bottom: 10px;
+        font-weight: 700;
+        display: block;
+        text-align: left;
+    }
+    .yellow700 a:hover{
+        color: rgb(93, 95, 121);
+    }
+    .yellow700{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .febrero h3{
+        color: black;
+        font-weight: 700;
+        font-size: 1.3em;
+    }
+    .febrero main p{
+        font-size: 0.8em;
+        text-align: left;
+        line-height: 1.5em;
+    }
+    .greycontainer{
+        background-color: rgb(227, 228, 230);
+        padding: 5px;
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .greycontainer p{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .greycontainer p+p{
+        font-size: 0.6em;
+        padding-left: 10px;
+    }
+    .febrero iframe{
+        max-width: 100%;
+        border: 0px;
+    }
+    .febrero iframe+p{
+        font-size: 0.6em;
+        margin-bottom: 0%;
+        margin-left: 18%;
+    }
+    .iniciativas main ul{
+        text-align: left;
+        padding-left: 35px;
+    }
+    .iniciativas ul p{
+        font-size: 0.8em;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .iniciativas ul h3{
+        margin-bottom: 0px;
+    }
+    .iniciativas main ul a{
+        color: rgb(245, 157, 35);
+        font-size: 0.8em;
+    }
+    .iniciativas main ul a:hover{
+        color:rgb(93, 95, 121) ;
+    }
+}
